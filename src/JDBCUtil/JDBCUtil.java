@@ -12,7 +12,7 @@ public class JDBCUtil {
             String username = "root";
             String password = "phuc123tp"; // Nhập pass
 
-            // dùng getConnection để kết nối đến mysql
+            // Dùng getConnection để kết nối đến mysql
             // getConnection() ở đây khác với tên method() nghe, DriverManager.getConnection là method có sẵn
             c = DriverManager.getConnection(url, username, password);
 
